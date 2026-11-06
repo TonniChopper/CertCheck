@@ -1,0 +1,266 @@
+{
+  "schema_version": "0.1.0",
+  "certificate_id": "CERT-02",
+  "source_file": "synthetic/cert_0001.pdf",
+  "reader": "golden-handmade",
+  "cost_eur": 0.0,
+  "certificate_type": {
+    "value": "3.1",
+    "unit": null,
+    "confidence": 0.97,
+    "source": {
+      "page": 1,
+      "bbox": [
+        0.1,
+        0.05,
+        0.3,
+        0.07
+      ],
+      "snippet": "Abnahmeprüfzeugnis 3.1 nach EN 10204"
+    }
+  },
+  "order_number": {
+    "value": "PO-2026-0001",
+    "unit": null,
+    "confidence": 0.97,
+    "source": {
+      "page": 1,
+      "bbox": [
+        0.1,
+        0.1,
+        0.3,
+        0.12000000000000001
+      ],
+      "snippet": "Bestell-Nr.: PO-2026-0001"
+    }
+  },
+  "manufacturer": {
+    "value": "Muster Stahlwerk GmbH",
+    "unit": null,
+    "confidence": 0.97,
+    "source": {
+      "page": 1,
+      "bbox": [
+        0.1,
+        0.02,
+        0.3,
+        0.04
+      ],
+      "snippet": "Muster Stahlwerk GmbH"
+    }
+  },
+  "standard": {
+    "value": "EN 10025-2",
+    "unit": null,
+    "confidence": 0.97,
+    "source": {
+      "page": 1,
+      "bbox": [
+        0.1,
+        0.15,
+        0.3,
+        0.16999999999999998
+      ],
+      "snippet": "EN 10025-2:2019"
+    }
+  },
+  "grade": {
+    "value": "S355J2+N",
+    "unit": null,
+    "confidence": 0.97,
+    "source": {
+      "page": 1,
+      "bbox": [
+        0.1,
+        0.18,
+        0.3,
+        0.19999999999999998
+      ],
+      "snippet": "Werkstoff: S355J2+N"
+    }
+  },
+  "batch_number": {
+    "value": "123456",
+    "unit": null,
+    "confidence": 0.97,
+    "source": {
+      "page": 1,
+      "bbox": [
+        0.1,
+        0.22,
+        0.3,
+        0.24
+      ],
+      "snippet": "Schmelze 123456"
+    }
+  },
+  "thickness_mm": {
+    "value": 10.0,
+    "unit": "mm",
+    "confidence": 0.97,
+    "source": {
+      "page": 1,
+      "bbox": [
+        0.1,
+        0.26,
+        0.3,
+        0.28
+      ],
+      "snippet": "Blech 10 x 2000 x 6000"
+    }
+  },
+  "chemistry": {
+    "C": {
+      "value": 0.17,
+      "unit": "%",
+      "confidence": 0.97,
+      "source": {
+        "page": 1,
+        "bbox": [
+          0.1,
+          0.4,
+          0.3,
+          0.42000000000000004
+        ],
+        "snippet": "C 0,17"
+      }
+    },
+    "Si": {
+      "value": 0.21,
+      "unit": "%",
+      "confidence": 0.97,
+      "source": {
+        "page": 1,
+        "bbox": [
+          0.1,
+          0.4,
+          0.3,
+          0.42000000000000004
+        ],
+        "snippet": "Si 0,21"
+      }
+    },
+    "Mn": {
+      "value": 1.42,
+      "unit": "%",
+      "confidence": 0.97,
+      "source": {
+        "page": 1,
+        "bbox": [
+          0.1,
+          0.4,
+          0.3,
+          0.42000000000000004
+        ],
+        "snippet": "Mn 1,42"
+      }
+    },
+    "P": {
+      "value": 0.012,
+      "unit": "%",
+      "confidence": 0.97,
+      "source": {
+        "page": 1,
+        "bbox": [
+          0.1,
+          0.4,
+          0.3,
+          0.42000000000000004
+        ],
+        "snippet": "P 0,012"
+      }
+    },
+    "S": {
+      "value": 0.006,
+      "unit": "%",
+      "confidence": 0.97,
+      "source": {
+        "page": 1,
+        "bbox": [
+          0.1,
+          0.4,
+          0.3,
+          0.42000000000000004
+        ],
+        "snippet": "S 0,006"
+      }
+    },
+    "Cu": {
+      "value": 0.03,
+      "unit": "%",
+      "confidence": 0.97,
+      "source": {
+        "page": 1,
+        "bbox": [
+          0.1,
+          0.4,
+          0.3,
+          0.42000000000000004
+        ],
+        "snippet": "Cu 0,03"
+      }
+    }
+  },
+  "mechanical": {
+    "ReH": {
+      "value": 341,
+      "unit": "MPa",
+      "confidence": 0.97,
+      "source": {
+        "page": 1,
+        "bbox": [
+          0.1,
+          0.55,
+          0.3,
+          0.5700000000000001
+        ],
+        "snippet": "ReH 341 MPa"
+      }
+    },
+    "Rm": {
+      "value": 532,
+      "unit": "MPa",
+      "confidence": 0.97,
+      "source": {
+        "page": 1,
+        "bbox": [
+          0.1,
+          0.55,
+          0.3,
+          0.5700000000000001
+        ],
+        "snippet": "Rm 532 MPa"
+      }
+    },
+    "A": {
+      "value": 26,
+      "unit": "%",
+      "confidence": 0.97,
+      "source": {
+        "page": 1,
+        "bbox": [
+          0.1,
+          0.55,
+          0.3,
+          0.5700000000000001
+        ],
+        "snippet": "A 26 %"
+      }
+    },
+    "KV": {
+      "value": 85,
+      "unit": "J",
+      "confidence": 0.97,
+      "source": {
+        "page": 1,
+        "bbox": [
+          0.1,
+          0.6,
+          0.3,
+          0.62
+        ],
+        "snippet": "KV -20°C 85 J"
+      }
+    }
+  }
+}

@@ -1,0 +1,16 @@
+grade: S235JR
+standard: EN 10025-2
+verified: false  # TODO Andrii: check against licensed standard copy
+thickness_range_mm: [3, 16]
+chemistry:  # % by mass, ladle analysis
+  C: {max: 0.17}
+  Mn: {max: 1.40}
+  P: {max: 0.035}
+  S: {max: 0.035}
+  Cu: {max: 0.55}
+mechanical:
+  ReH: {min: 235}           # MPa
+  Rm: {min: 360, max: 510}  # MPa
+  A: {min: 26}              # %, longitudinal
+  KV: {min: 27}             # J
+kv_temp_c: 20

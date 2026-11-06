@@ -1,0 +1,229 @@
+{
+  "schema_version": "0.1.0",
+  "certificate_id": "CERT-02",
+  "order_number": "PO-2026-0001",
+  "verdict": "red",
+  "findings": [
+    {
+      "rule_id": "certificate.type",
+      "status": "green",
+      "message": "matches order",
+      "value": "3.1",
+      "limit": "3.1",
+      "source": {
+        "page": 1,
+        "bbox": [
+          0.1,
+          0.05,
+          0.3,
+          0.07
+        ],
+        "snippet": "Abnahmeprüfzeugnis 3.1 nach EN 10204"
+      }
+    },
+    {
+      "rule_id": "order.number",
+      "status": "green",
+      "message": "matches order",
+      "value": "PO-2026-0001",
+      "limit": "PO-2026-0001",
+      "source": {
+        "page": 1,
+        "bbox": [
+          0.1,
+          0.1,
+          0.3,
+          0.12000000000000001
+        ],
+        "snippet": "Bestell-Nr.: PO-2026-0001"
+      }
+    },
+    {
+      "rule_id": "grade.match",
+      "status": "green",
+      "message": "matches order",
+      "value": "S355J2+N",
+      "limit": "S355J2+N",
+      "source": {
+        "page": 1,
+        "bbox": [
+          0.1,
+          0.18,
+          0.3,
+          0.19999999999999998
+        ],
+        "snippet": "Werkstoff: S355J2+N"
+      }
+    },
+    {
+      "rule_id": "chemistry.C",
+      "status": "green",
+      "message": "within limit",
+      "value": 0.17,
+      "limit": "<= 0.2",
+      "source": {
+        "page": 1,
+        "bbox": [
+          0.1,
+          0.4,
+          0.3,
+          0.42000000000000004
+        ],
+        "snippet": "C 0,17"
+      }
+    },
+    {
+      "rule_id": "chemistry.Si",
+      "status": "green",
+      "message": "within limit",
+      "value": 0.21,
+      "limit": "<= 0.55",
+      "source": {
+        "page": 1,
+        "bbox": [
+          0.1,
+          0.4,
+          0.3,
+          0.42000000000000004
+        ],
+        "snippet": "Si 0,21"
+      }
+    },
+    {
+      "rule_id": "chemistry.Mn",
+      "status": "green",
+      "message": "within limit",
+      "value": 1.42,
+      "limit": "<= 1.6",
+      "source": {
+        "page": 1,
+        "bbox": [
+          0.1,
+          0.4,
+          0.3,
+          0.42000000000000004
+        ],
+        "snippet": "Mn 1,42"
+      }
+    },
+    {
+      "rule_id": "chemistry.P",
+      "status": "green",
+      "message": "within limit",
+      "value": 0.012,
+      "limit": "<= 0.025",
+      "source": {
+        "page": 1,
+        "bbox": [
+          0.1,
+          0.4,
+          0.3,
+          0.42000000000000004
+        ],
+        "snippet": "P 0,012"
+      }
+    },
+    {
+      "rule_id": "chemistry.S",
+      "status": "green",
+      "message": "within limit",
+      "value": 0.006,
+      "limit": "<= 0.025",
+      "source": {
+        "page": 1,
+        "bbox": [
+          0.1,
+          0.4,
+          0.3,
+          0.42000000000000004
+        ],
+        "snippet": "S 0,006"
+      }
+    },
+    {
+      "rule_id": "chemistry.Cu",
+      "status": "green",
+      "message": "within limit",
+      "value": 0.03,
+      "limit": "<= 0.55",
+      "source": {
+        "page": 1,
+        "bbox": [
+          0.1,
+          0.4,
+          0.3,
+          0.42000000000000004
+        ],
+        "snippet": "Cu 0,03"
+      }
+    },
+    {
+      "rule_id": "mechanical.ReH",
+      "status": "red",
+      "message": "341.0 outside limit >= 355",
+      "value": 341.0,
+      "limit": ">= 355",
+      "source": {
+        "page": 1,
+        "bbox": [
+          0.1,
+          0.55,
+          0.3,
+          0.5700000000000001
+        ],
+        "snippet": "ReH 341 MPa"
+      }
+    },
+    {
+      "rule_id": "mechanical.Rm",
+      "status": "green",
+      "message": "within limit",
+      "value": 532.0,
+      "limit": "470..630",
+      "source": {
+        "page": 1,
+        "bbox": [
+          0.1,
+          0.55,
+          0.3,
+          0.5700000000000001
+        ],
+        "snippet": "Rm 532 MPa"
+      }
+    },
+    {
+      "rule_id": "mechanical.A",
+      "status": "green",
+      "message": "within limit",
+      "value": 26.0,
+      "limit": ">= 22",
+      "source": {
+        "page": 1,
+        "bbox": [
+          0.1,
+          0.55,
+          0.3,
+          0.5700000000000001
+        ],
+        "snippet": "A 26 %"
+      }
+    },
+    {
+      "rule_id": "mechanical.KV",
+      "status": "green",
+      "message": "within limit",
+      "value": 85.0,
+      "limit": ">= 27",
+      "source": {
+        "page": 1,
+        "bbox": [
+          0.1,
+          0.6,
+          0.3,
+          0.62
+        ],
+        "snippet": "KV -20°C 85 J"
+      }
+    }
+  ]
+}

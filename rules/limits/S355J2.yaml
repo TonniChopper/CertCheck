@@ -1,0 +1,17 @@
+grade: S355J2
+standard: EN 10025-2
+verified: false  # TODO Andrii: check against licensed standard copy
+thickness_range_mm: [3, 16]
+chemistry:  # % by mass, ladle analysis
+  C: {max: 0.20}
+  Si: {max: 0.55}
+  Mn: {max: 1.60}
+  P: {max: 0.025}
+  S: {max: 0.025}
+  Cu: {max: 0.55}
+mechanical:
+  ReH: {min: 355}           # MPa
+  Rm: {min: 470, max: 630}  # MPa
+  A: {min: 22}              # %, longitudinal
+  KV: {min: 27}             # J
+kv_temp_c: -20

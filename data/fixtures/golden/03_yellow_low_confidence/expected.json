@@ -1,0 +1,7 @@
+{
+  "verdict": "yellow",
+  "non_green_rules": [
+    "chemistry.Mn"
+  ],
+  "note": "Mn read with confidence 0.60"
+}

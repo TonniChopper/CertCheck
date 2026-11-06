@@ -1,0 +1,7 @@
+{
+  "verdict": "red",
+  "non_green_rules": [
+    "grade.match"
+  ],
+  "note": "certificate says S235JR+N, order S355J2+N"
+}

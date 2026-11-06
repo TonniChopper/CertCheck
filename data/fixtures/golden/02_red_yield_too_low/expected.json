@@ -1,0 +1,7 @@
+{
+  "verdict": "red",
+  "non_green_rules": [
+    "mechanical.ReH"
+  ],
+  "note": "deliberately wrong: ReH 341 < 355"
+}

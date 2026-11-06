@@ -1,0 +1,10 @@
+{
+  "schema_version": "0.1.0",
+  "order_number": "PO-2026-0001",
+  "supplier": "Muster Stahlwerk GmbH",
+  "grade": "S355J2+N",
+  "standard": "EN 10025-2",
+  "thickness_mm": 10.0,
+  "certificate_type": "3.1",
+  "quantity_t": 12.5
+}

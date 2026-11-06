@@ -1,0 +1,7 @@
+{
+  "verdict": "yellow",
+  "non_green_rules": [
+    "mechanical.KV"
+  ],
+  "note": "impact value not found on certificate"
+}
